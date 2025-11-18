@@ -1,0 +1,7 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-3/Daily-Challenges-Day3.py
+Brief justification:
+- correctness: The code accurately implements both challenges as described in the chapter content. Challenge 1 correctly creates a dictionary mapping letters to their indices, and Challenge 2 correctly identifies affordable items based on the provided data and wallet amount, then sorts them alphabetically. The code directly addresses the tasks and provides the expected outputs for all given examples.
+- readability: The code is well-formatted and uses meaningful variable names, making it easy to understand. Comments are used effectively to explain the purpose of different code sections.
+- performance: The code uses efficient data structures and algorithms. For example, using `enumerate` is a Pythonic way to get both the index and value of an iterable. The code iterates through the dictionary once, which is efficient for this problem.
+- security: The code doesn't handle any external input that could pose a security risk. It correctly cleans the input data (price and wallet) before converting it to an integer to avoid any potential injection vulnerabilities.
+
