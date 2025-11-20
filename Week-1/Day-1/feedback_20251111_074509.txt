@@ -1,0 +1,10 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-1/EXERSISE-1.py
+suggestions for improvement:
+- The comments predicting the output in Exercise 3 could be placed *before* the line of code, to more closely mirror the instructions' intention for prediction.
+- Consider adding more robust error handling, like try-except blocks around `input()` to gracefully handle non-numeric input.
+Brief justification:
+- correctness: All exercises were completed correctly and address the topics covered in the chapter content (print statements, variables, math operations, comparisons, if statements, user input). Each exercise fulfills the requirements outlined in its instructions.
+- readability: The code is generally well-formatted and easy to read. Variable names are descriptive. Some lines could be slightly more concise, but overall it's good.
+- performance: The code is efficient for the tasks it performs. The mathematical operations are straightforward, and the input/output operations are not computationally intensive.
+- security: The code uses `input()` to get user input. While there isn't any explicit vulnerability in the given code, be aware of potential security risks associated with using `input()` in more complex scenarios (e.g., code injection if using `eval()` on the input, which is not done here).
+
