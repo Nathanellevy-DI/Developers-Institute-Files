@@ -1,0 +1,11 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Not-bad.js
+suggestions for improvement:
+- The code addresses a different problem than the one described in the Chapter Content/Questions.
+- The code should focus on using for loops (including nested for loops) to print a specific pattern of asterisks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Stars.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
