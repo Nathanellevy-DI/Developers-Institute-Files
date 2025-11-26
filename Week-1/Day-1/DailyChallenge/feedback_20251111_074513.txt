@@ -1,0 +1,7 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-1/DailyChallenge/Answer-to-daily-challange.py
+Brief justification:
+- correctness: The code accurately fulfills all the requirements outlined in the Chapter Content/Questions. It takes user input, validates the string length, prints the first and last characters, builds the string character by character, and shuffles the string. All steps align perfectly with the instructions.
+- readability: The code is well-structured and easy to understand. Variable names are descriptive, and comments are used effectively to explain the code's logic.
+- performance: The code uses efficient methods for string manipulation and iteration, resulting in optimal performance for the given task.
+- security: The code does not handle sensitive data and is not vulnerable to common security risks. The user input is validated for length but no more in-depth validation is needed.
+
