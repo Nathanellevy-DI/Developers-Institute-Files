@@ -1,0 +1,7 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-5/Daily-Challenge-Answer.py
+Brief justification:
+- correctness: The code correctly implements both challenges as described in the chapter content. Challenge 1 sorts comma-separated words alphabetically, and Challenge 2 finds the longest word in a sentence. Both solutions adhere to the instructions provided.
+- readability: The code is well-structured and easy to follow, with clear comments explaining each step. Variable names are descriptive, enhancing readability.
+- performance: The solutions are efficient for the given tasks. The sorting algorithm in Challenge 1 and the single-pass loop in Challenge 2 provide reasonable performance.
+- security: The code does not have any apparent security vulnerabilities. The `input()` function in Challenge 1 could potentially be a point of concern if the input is not handled properly in a real-world application, but for this exercise, it's acceptable.
+
