@@ -1,0 +1,7 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-3/ExerciseXP-Answers-Day3.py
+Brief justification:
+- correctness: All exercises are solved correctly and efficiently. The code directly addresses the instructions in each exercise of the chapter content, including the bonus challenges.
+- readability: The code is well-formatted, with clear variable names and comments. The logic in each exercise is easy to follow.
+- performance: The code uses efficient methods for dictionary creation, manipulation, and looping, resulting in optimal performance.
+- security: The code does not involve any user input or external data, eliminating security risks.
+
