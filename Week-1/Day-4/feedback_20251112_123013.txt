@@ -1,0 +1,10 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-1/Day-4/Answer.py
+suggestions for improvement:
+- Consider adding more comments to the compare_numbers function to clarify the success condition.
+- No specific improvements needed; the code is well-structured and addresses all exercise requirements.
+Brief justification:
+- correctness: All exercises are correctly implemented according to the descriptions provided in the chapter content. Each function performs its intended task accurately, including handling parameters, default values, and expected outputs. Exercise 4 includes the random module and conditional statments to determine success. Exercise 6 updates a lists and uses for loops to output the list. Exercise 7 includes random number generation using randint and conditional statments based on the temperature generated.
+- readability: The code is highly readable, with clear function definitions and meaningful variable names. The use of f-strings enhances readability. Docstrings are included in exercises 1, 2, 3, 4, and 5 to explain the purpose of each function. The program could be improved by adding documentation to the remaining functions.
+- performance: The code exhibits excellent performance, using efficient algorithms and data structures for each task. The functions are well-defined and execute without unnecessary overhead.
+- security: The code is secure, with no apparent vulnerabilities. It does not handle any external input that could lead to security risks. All random numbers are generated from the random module.
+
