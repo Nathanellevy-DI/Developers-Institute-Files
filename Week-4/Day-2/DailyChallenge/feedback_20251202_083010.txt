@@ -1,0 +1,12 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/DailyChallenge/daily-challegne.html
+suggestions for improvement:
+- Consider adding more robust input validation to prevent unexpected data types or malicious input. This could be done in the JavaScript file.
+- For improved accessibility, associate labels with their corresponding input fields using the `for` attribute.
+- Consider using `preventDefault()` within the JavaScript event listener to prevent the default form submission behavior which might cause a page reload.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/DailyChallenge/daily-challenge.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
