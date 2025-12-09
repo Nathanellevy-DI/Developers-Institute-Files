@@ -1,0 +1,7 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-2/ExersiseXP/Exercise-XP-Answer.js
+suggestions for improvement:
+- In Exercise 1, using document.getElementById is preferable for selecting elements with specific IDs, ensuring direct and efficient access.
+- In Exercise 4, consider adding input validation to ensure the radius value is positive, enhancing the robustness of the calculation.
+- Consider using more descriptive variable names to improve code clarity, especially in longer functions. For example, using 'radiusInput' instead of 'r'.
+Correctness: 90%
+-----
