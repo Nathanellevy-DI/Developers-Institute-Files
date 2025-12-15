@@ -1,0 +1,6 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-2/DailyChallenge/Daily-challenge-Answers.js
+suggestions for improvement:
+- Consider adding more diverse story options to enhance the game's replayability.
+- The code is well-structured and readable. Consistent use of whitespace and meaningful variable names enhances clarity.  Minor improvements could be achieved by extracting DOM element selection into a separate function.
+Correctness: 100%
+-----

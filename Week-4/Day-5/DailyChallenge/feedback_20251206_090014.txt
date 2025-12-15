@@ -1,0 +1,17 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/index.html
+suggestions for improvement:
+- The provided code is an HTML structure for a currency converter, but it doesn't include any JavaScript code that actually uses the Fetch API, async/await, or the ExchangeRate API as required by the prompt.
+- The prompt explicitly asks for fetching data from the ExchangeRate API and using async/await, but the provided code only sets up the HTML structure.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/script.js
+suggestions for improvement:
+- Consider implementing input validation for the API key to avoid potential issues.
+- To improve perceived performance, especially with a slow network, consider adding a more visually distinct loading indicator (e.g., a spinner) instead of just changing the text.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/style.css
+suggestions for improvement:
+- The provided code is only CSS styling. There is no JavaScript to implement the fetching of currency data from an API, the conversion logic, or the dynamic updating of the page.  It needs to include JavaScript code to handle the API requests using `fetch` and `async/await`, and to update the DOM elements with the fetched data.
+Correctness: 0%
+-----
