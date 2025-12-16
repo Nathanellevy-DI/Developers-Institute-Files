@@ -1,0 +1,6 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-2/Day-5/anagram_project.py
+suggestions for improvement:
+- Consider handling potential FileNotFoundError for the wordlist file more gracefully, providing a more informative error message to the user.
+- For large word lists, consider using a more efficient data structure for storing and searching anagrams (e.g., a dictionary where keys are sorted word strings and values are lists of anagrams).
+Correctness: 100%
+-----
