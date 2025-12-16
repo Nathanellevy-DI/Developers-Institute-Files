@@ -1,0 +1,11 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Not-bad.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Stars.js
+suggestions for improvement:
+- The provided code does not address the instructions given in the problem description. It prints a pattern of stars, which is unrelated to string manipulation, conditional statements, and finding/replacing substrings as specified in the instructions.
+- The code needs to be completely rewritten to address the problem description related to string manipulation.
+Correctness: 0%
+-----
