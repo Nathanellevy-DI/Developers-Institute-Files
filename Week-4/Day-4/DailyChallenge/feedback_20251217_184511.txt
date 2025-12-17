@@ -1,0 +1,11 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/DailyChallenge/index.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/DailyChallenge/script.js
+suggestions for improvement:
+- Consider adding error handling to the `appendGif` function in case the image fails to load.
+- For better performance, consider using a document fragment to append multiple elements to the DOM at once instead of appending each gif individually.
+Correctness: 100%
+-----
