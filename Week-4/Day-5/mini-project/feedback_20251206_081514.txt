@@ -1,0 +1,20 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/index.html
+suggestions for improvement:
+- The provided code is only the HTML structure and includes a link to a CSS file and a JavaScript file. It does not contain any JavaScript code related to fetching data from the Star Wars API, displaying loading messages, handling errors, or updating the DOM with the character's information. Thus, it doesn't fulfill the requirements of the provided instructions at all.
+- The JavaScript file (script.js) is missing, and it's crucial for implementing the core functionality of fetching and displaying data.
+- Add CSS styling for the elements within the HTML structure to display content properly.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/script.js
+suggestions for improvement:
+- Consider adding more descriptive comments to clarify the purpose of specific code blocks, especially within the try-catch block.
+- While the code handles errors, consider logging the specific error to the console for easier debugging.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/style.css
+suggestions for improvement:
+- This code only provides CSS styling, but the prompt asks for JavaScript code that uses async/await and the Fetch API to retrieve data from the Star Wars API and display it on the page. It's missing the core functionality required by the prompt.
+- The CSS is generally well-structured and readable, contributing to a good user experience.
+- Consider using more semantic HTML elements to improve accessibility and SEO.
+Correctness: 0%
+-----

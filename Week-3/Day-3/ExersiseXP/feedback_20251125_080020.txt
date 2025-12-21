@@ -1,0 +1,6 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-3/ExersiseXP/exercise-xp.js
+suggestions for improvement:
+- Consider using more descriptive variable names in Exercise 5 for better readability.
+- For improved performance in Exercise 5, consider caching the nodelist returned by `document.querySelectorAll` if it's being used multiple times.
+Correctness: 100%
+-----

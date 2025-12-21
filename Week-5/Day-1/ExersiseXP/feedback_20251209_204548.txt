@@ -1,0 +1,6 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-5/Day-1/ExersiseXP/exercise-xp.ts
+suggestions for improvement:
+- In Exercise 2, consider renaming `nameValue` to simply `name` for better readability and consistency with common naming conventions.
+- For exercise 7, include a brief explanation in comments about why the DOM element retrieval is commented out and replaced with a fake input. This clarifies the intent and addresses potential confusion in environments without a DOM.
+Correctness: 100%
+-----

@@ -1,0 +1,20 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/ToDo-list/todo-list.css
+suggestions for improvement:
+- The provided code is CSS. The prompt requests HTML and Javascript files.
+- There is no way to assess the functionality that is missing.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/ToDo-list/todo-list.html
+suggestions for improvement:
+- The provided code is HTML, not JavaScript.  It sets up the basic structure of the todo list, but it doesn't implement any of the required JavaScript functionality (addTask, event listeners, DOM manipulation, bonus features).  A complete JavaScript file is needed to fulfill the instructions.
+- The instructions require the use of font awesome for the X button, which is not used in the current version. Implement Font Awesome to render the X button.
+- Add event listeners to the 'Add' button to call the `addTask()` function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/ToDo-list/todo-list.js
+suggestions for improvement:
+- The code implements the basic to-do list functionality, but it doesn't include the BONUS features. Specifically, it's missing the task_id, done property, and the doneTask() function.  Also, the deleteTask functionality needs to remove the item from the `tasks` array.
+- Consider using a more robust method for generating unique task IDs if you implement the bonus features, especially if tasks can be deleted and added dynamically.  Simply incrementing a counter might lead to ID collisions.
+- Clearing all tasks could be more efficient by using `while (listContainer.firstChild) { listContainer.removeChild(listContainer.firstChild); }` instead of setting `innerHTML = ""`.
+Correctness: 70%
+-----
