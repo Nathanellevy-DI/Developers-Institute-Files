@@ -1,0 +1,10 @@
+URL: http://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-2/DailyChallenge/Daily-Challenge.sql
+suggestions for improvement:
+- Consider adding comments before each query to reiterate the original question being answered.
+- Include the expected outputs for each query as a comment before the actual query execution. This helps in understanding the reasoning process and verifying the solution.
+Brief justification:
+- correctness: The code accurately creates the tables, inserts the data, and then executes the four provided SQL queries. The predictions for each query's output are correct based on SQL's behavior with NULL values and the NOT IN operator. The code directly addresses the questions posed in the chapter content.
+- readability: The code is generally readable with clear table and column names. The use of comments to describe the queries is helpful. Adding DROP TABLE IF EXISTS statements improves the script's reusability.
+- performance: The queries are simple and efficient for the given data size. There are no performance concerns.
+- security: The code uses standard SQL syntax and does not involve any external input or dynamic query generation, minimizing security risks.
+
