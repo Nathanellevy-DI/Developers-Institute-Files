@@ -1,0 +1,6 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-4/ExersiseXP/Exercises-xp-answer.js
+suggestions for improvement:
+- For exercise 1, consider adding comments directly in the code to explain the predicted values of 'a' as the exercise instructions explicitly ask for it.
+- In exercise 7, consider adding a check to see if the navbar exists before attempting to append to it. This would prevent errors if the HTML structure is different.
+Correctness: 100%
+-----

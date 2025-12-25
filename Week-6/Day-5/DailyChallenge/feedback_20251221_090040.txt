@@ -1,0 +1,19 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-5/DailyChallenge/public/index.html
+suggestions for improvement:
+- The HTML provides a basic structure but lacks the core functionality specified in the instructions. It needs form elements with multiple-choice options, integration with Express API endpoints to submit guesses, and dynamic updates to display feedback and score.
+- The HTML is missing crucial parts of the game's presentation, such as the multiple-choice options derived from the `emojis` array and a mechanism to submit the player's guess to an Express API endpoint.
+- The HTML is not directly executable code for the specified task, so assessing readability, performance, and security isn't applicable.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-5/DailyChallenge/public/script.js
+suggestions for improvement:
+- The provided code implements the client-side (front-end) logic for the emoji guessing game, focusing on fetching questions, submitting guesses, and displaying the leaderboard. However, the problem description clearly states to "Create a fun emoji guessing game using an Express API." The code doesn't include the Express API (back-end) implementation. The client-side Javascript uses Fetch API to get questions and post answers. But there is no Express server code that defines what the `/question`, `/guess`, or `/leaderboard` endpoints do. The code provided is therefore completely irrelevant to the prompt, which is focused on creating the back-end API.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-5/DailyChallenge/server.js
+suggestions for improvement:
+- Consider using a more robust method for generating random options, such as shuffling the entire emoji array and taking a slice.
+- The leaderboard implementation is basic. Consider adding error handling for file read/write operations and preventing excessively long names.
+- The client-side code (HTML, CSS, JS) is missing. While the API is functional, there is no user interface to interact with it.
+Correctness: 90%
+-----

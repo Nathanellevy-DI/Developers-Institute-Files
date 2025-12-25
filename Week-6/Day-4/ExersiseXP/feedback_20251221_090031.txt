@@ -1,0 +1,87 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-1/products.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-1/shop.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-2/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-2/data.js
+suggestions for improvement:
+- This code snippet only contains the `data.js` file from Exercise 2. The `app.js` file, which is crucial for calculating and displaying the average age, is missing. Therefore, the exercise is incomplete.
+- To fully address Exercise 2, you need to provide the `app.js` file that imports the `people` array, calculates the average age, and prints it to the console.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-2/package.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-3/Bye World.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-3/Hello World.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-3/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-3/fileManager.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-4/app.js
+suggestions for improvement:
+- Ensure that the todo.js file is present in the todoApp directory and contains the TodoList class implementation as described in the instructions.
+- Create the todoApp directory if it doesn't exist.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-4/package.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-4/todo.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-5/app.js
+suggestions for improvement:
+- The code is not related to the current exercise, therefore it is not possible to perform an assessment.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-5/math.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-6/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-7/copy-file.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/ExersiseXP/exercise-7/read-directory.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

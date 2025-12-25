@@ -1,0 +1,7 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-1/ExersiseXP/exercise-xp.sql
+Brief justification:
+- correctness: The code accurately creates the database and tables as requested in Exercise 1. It correctly inserts the data and retrieves the data using SQL queries as specified in the exercise. All instructions are followed precisely.
+- readability: The code is well-formatted and easy to read. Comments are included to explain the purpose of each section.
+- performance: The SQL queries are straightforward and efficient for the given data size.
+- security: The code uses standard SQL syntax and does not introduce any apparent security vulnerabilities.
+

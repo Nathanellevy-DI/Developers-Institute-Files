@@ -1,0 +1,16 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/index.html
+suggestions for improvement:
+- This HTML file sets up the basic structure for the Star Wars character app but doesn't include any JavaScript to fetch or display data. This means it doesn't yet implement the core functionality described in the prompt. The next step is to implement the javascript file.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/script.js
+suggestions for improvement:
+- Consider adding comments to explain complex logic, even though the code is fairly self-explanatory.
+- You could extract the error message display into a separate function for reusability.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/mini-project/style.css
+suggestions for improvement:
+- This is CSS code. The instructions asked for HTML and JS code. This code does not address the problem.
+Correctness: 0%
+-----
