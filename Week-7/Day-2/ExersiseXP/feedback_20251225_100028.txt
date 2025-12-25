@@ -1,0 +1,64 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise1/blog-api/server/config/knexfile.js
+suggestions for improvement:
+- The submitted code snippet only contains database configuration, not the complete implementation of the RESTful API as described in Exercises 1 and 2. It lacks the Express app setup, route definitions, controller logic, and model definitions that are central to the exercises.
+- The database configuration is minimal, lacking migrations and seeds which are standard practices. Consider adding those for a more robust setup.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise1/blog-api/server/controllers/posts.controller.js
+suggestions for improvement:
+- Implement error handling in each controller function to catch potential database errors.
+- Add validation middleware to check the request body for create and update routes.
+- Consider using a more robust method for handling sensitive data, such as environment variables for database credentials.
+- Implement pagination for the GET /posts route to handle large datasets efficiently.
+- Ensure proper input sanitization to prevent SQL injection vulnerabilities.
+Correctness: 80%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise1/blog-api/server/models/db.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise1/blog-api/server/routes/posts.routes.js
+suggestions for improvement:
+- The provided code snippet only defines the routes. To fully address the exercises, you need to include the implementation of the controllers, models, and database connection using Knex.
+- The code does not include any database connection or Knex usage, which is a key requirement of the exercises.
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise1/blog-api/server/server.js
+suggestions for improvement:
+- The code sets up a basic Express server and includes error handling, fulfilling some requirements of Exercise 1. However, it lacks database integration using Knex, and the directory structure is not fully implemented. Exercise 2 is completely unaddressed.
+- The code does not create the specified directory structure (server, config, controllers, models, routes). This should be implemented.
+- Knex is not used to query data from a database as specified in the learning objectives. This is a major omission.
+- The code needs to implement the CRUD operations (GET, POST, PUT, DELETE) for blog posts as outlined in Exercise 1, including database interactions.
+- Separate route files into the 'routes' directory as indicated in instruction number 8 of exercise 1
+Correctness: 60%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise2/server/app.js
+suggestions for improvement:
+- The code is missing the database connection setup using Knex, as described in the chapter content.
+- The directory structure is not yet implemented, but implied it should be.
+- Error handling is missing, specifically handling of invalid routes and server errors.
+- The data persistence aspect of storing books and posts to a database is missing, currently it is just a basic API setup.
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise2/server/controllers/books.controller.js
+suggestions for improvement:
+- The code only implements READ ALL, READ ONE, and CREATE routes. Implement UPDATE and DELETE routes to fully address Exercise 2.
+- Consider using a more robust method for generating unique IDs for books, rather than `Date.now()`, especially in a production environment.
+- Implement the directory structure specified in the exercise. The provided code snippet doesn't demonstrate the suggested server/config/controllers/models/routes structure.
+Correctness: 60%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise2/server/models/posts.model.js
+suggestions for improvement:
+- The provided code snippet only includes the models (or data access layer) for the blog API. To fully address Exercise 1 and Exercise 2, you need to provide the Express routes, controllers, and server setup, along with the database configuration.
+- Consider adding input validation and sanitization in the controller layer to prevent SQL injection vulnerabilities.
+- Implement error handling within each function to catch database errors and return appropriate HTTP status codes.
+Correctness: 60%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/ExersiseXP/Exercise2/server/routes/books.routes.js
+suggestions for improvement:
+- Implement the missing PUT and DELETE routes to fully satisfy the CRUD requirements outlined in Exercise 2.
+- Add error handling within the controller functions (e.g., in `books.controller.js`) to handle cases where a book is not found or when there are issues during creation or update.
+- Consider using a database for persistent storage instead of in-memory data, which is essential for a real-world API as suggested by both Exercise 1 and Exercise 2.
+Correctness: 50%
+-----
