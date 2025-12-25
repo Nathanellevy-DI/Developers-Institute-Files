@@ -1,0 +1,6 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/ExersiseXP/Exercise-xp-answers.js
+suggestions for improvement:
+- In Exercise 3, consider providing a default value or error handling for the prompt input, as it currently relies on browser-specific functionality and lacks input validation.
+- For the Rudolf exercise, consider using a more efficient string concatenation method, such as template literals, for better readability and potentially improved performance.
+Correctness: 100%
+-----

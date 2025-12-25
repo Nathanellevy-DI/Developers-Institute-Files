@@ -1,0 +1,22 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/ExersiseXP/Exercise-1/exercise.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/ExersiseXP/Exercise-1/exercise1.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/ExersiseXP/exercise-2/exercise2.html
+suggestions for improvement:
+- The code only provides the HTML form structure for the POST method example. It needs to include the GET method form as well, as specified in Exercise 1.
+- The code lacks the JavaScript for converting the marioGame object to JSON and pretty printing it.
+- There's no implementation for adding breakpoints and inspecting the JSON object in the debugger. That part of the instructions has been skipped.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-2/ExersiseXP/exercise-3/excerise.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
