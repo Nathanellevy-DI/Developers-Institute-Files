@@ -1,0 +1,11 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-2/Day-5/oopquizz/deck_of_cards.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-2/Day-5/oopquizz/oop_quiz_answers.txt
+suggestions for improvement:
+- The submission only provides definitions and doesn't include any code to address Exercise 2, which is the core requirement of the instructions.
+- Exercise 2 requires creating Python classes `Card` and `Deck` with specific methods, including `shuffle` and `deal`.
+Correctness: 0%
+-----

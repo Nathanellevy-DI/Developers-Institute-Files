@@ -1,0 +1,6 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-2/ExersiseXP/exercise-xp.sql
+suggestions for improvement:
+- The comments are useful, but could be slightly more descriptive. For example, in Exercise 2, question 8, specifying which movie you are checking for would improve readability.
+- Consider using more explicit JOIN syntax (e.g., INNER JOIN, LEFT JOIN) for better readability, although the implicit syntax is functionally correct.
+Correctness: 100%
+-----

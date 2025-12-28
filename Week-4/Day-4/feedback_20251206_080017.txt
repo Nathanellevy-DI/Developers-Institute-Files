@@ -1,0 +1,16 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/DailyChallenge/index.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/DailyChallenge/script.js
+suggestions for improvement:
+- Consider adding error handling for edge cases, such as when the API returns no results for a given search term.
+- Add some basic styling to the form elements to improve the user interface.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/ExersiseXP/exercises-xp.js
+suggestions for improvement:
+- The code does not address the prompt, which requires creating a form, fetching gifs based on user input, appending them with delete buttons, and handling delete functionality. It only contains basic API calls and async/await examples unrelated to the given problem.
+Correctness: 0%
+-----
