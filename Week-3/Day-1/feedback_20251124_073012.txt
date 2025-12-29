@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Not-bad.js
+suggestions for improvement:
+- This code is completely unrelated to the exercises provided in the chapter content (Variables, Conditionals, Loops, Objects). It performs a string manipulation task that's not mentioned in any of the exercise instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/DailyChallenge/Stars.js
+suggestions for improvement:
+- The provided code prints a star pattern to the console. This code is completely unrelated to the exercises provided in the chapter content. The chapter content covers variables, conditionals, loops, and objects, none of which are directly addressed by the star pattern code.
+- Please provide code that attempts to solve the exercises outlined in the chapter content. Focus on array manipulation, looping through arrays and objects, and using conditional statements as described in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-1/Exercise-xp-answers.js
+suggestions for improvement:
+- Consider using more descriptive variable names in some places to enhance readability.
+- The commenting is good but can be slightly more concise.
+Correctness: 100%
+-----

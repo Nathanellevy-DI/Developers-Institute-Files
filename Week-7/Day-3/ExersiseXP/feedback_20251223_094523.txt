@@ -1,0 +1,6 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-3/ExersiseXP/mini-project.js
+suggestions for improvement:
+- Consider using a more robust ID generation method (e.g., UUIDs) for scalability and to avoid potential ID conflicts in larger datasets or distributed environments.
+- While the current file-based storage is suitable for smaller projects, explore database options (e.g., MongoDB, PostgreSQL) for improved performance, scalability, and data integrity in larger applications.
+Correctness: 100%
+-----

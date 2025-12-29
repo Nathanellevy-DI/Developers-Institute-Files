@@ -1,0 +1,19 @@
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/mini-project/mini-prioect.js
+suggestions for improvement:
+- Consider adding color selection elements to the HTML rather than relying on the background color style, which is harder to manage.
+- The code works but could be slightly optimized. Caching the `pixels` NodeList is good, but you could avoid iterating through all pixels on clear by having a more efficient reset method (e.g., using a container div and recreating the grid).
+- Avoid inline styles, use CSS classes instead. This will make it easier to manage styles and improve maintainability.
+Correctness: 75%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/mini-project/mini-project.css
+suggestions for improvement:
+- This code only contains CSS styling and is missing the HTML and JavaScript needed to create the coloring squares project. The CSS styles the color palette, grid, and clear button, but doesn't implement the functionality described in the project brief, such as selecting colors and drawing on the grid.
+Correctness: 0%
+-----
+URL: URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-3/Day-5/mini-project/mini-project.html
+suggestions for improvement:
+- The HTML code provided sets up the basic structure for a coloring squares project, including a color palette, a grid, and a clear button. However, it uses a `<canvas>` element which isn't the approach hinted at in the project brief, which suggested using a grid. The project brief specifically asks for a grid of blank squares and a grid of colors, implemented possibly using CSS Grid. The use of canvas doesn't align with the suggested approach.
+- The HTML also includes the necessary CSS and JavaScript links. Overall, the HTML provides a foundation, but the presence of the `<canvas>` element and absence of grid-based square elements mean it does not directly implement the project's core requirements.
+- Consider restructuring the HTML to use a grid of `<div>` elements for the coloring grid, as suggested in the prompt. Remove the canvas element.
+Correctness: 0%
+-----
