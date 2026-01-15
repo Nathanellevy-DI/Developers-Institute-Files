@@ -1,0 +1,26 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/DailyChallenge/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/DailyChallenge/challenge.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/DailyChallenge/colorful-message.js
+suggestions for improvement:
+- The code only implements the colorful-message.js part of Task 2. It needs to include greeting.js, app.js for tasks 1 and 2, read-file.js, creation of files directory and text file, and challenge.js to fully address the problem.
+- Consider adding comments to explain the purpose of the function, especially if the logic becomes more complex.
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/DailyChallenge/greeting.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-6/Day-4/DailyChallenge/read-file.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

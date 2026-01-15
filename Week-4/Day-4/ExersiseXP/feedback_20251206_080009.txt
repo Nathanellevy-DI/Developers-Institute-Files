@@ -1,0 +1,6 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-4/ExersiseXP/exercises-xp.js
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section, although the exercise numbers do provide context.
+- While the error handling is good, consider more specific error messages where possible to aid debugging.
+Correctness: 100%
+-----

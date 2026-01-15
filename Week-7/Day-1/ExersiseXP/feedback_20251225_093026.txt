@@ -1,0 +1,41 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise1/app.js
+suggestions for improvement:
+- The code only implements mounting the first exercise. To fully implement exercise 1, the routes in `routes/index.js` needs to be added.
+- The code lacks error handling or middleware for parsing request bodies (for exercises 2 and 3).
+- The code does not include the implementation for exercises 2 and 3.
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise1/routes/index.js
+suggestions for improvement:
+- This code snippet represents the router module for Exercise 1. You need to provide the `app.js` content and the `package.json` (or at least a list of dependencies) to evaluate the correctness of the whole application.
+- For Exercise 2 and Exercise 3, you need to provide the content of both `app.js` and the router files (`todos.js` and `books.js` respectively).
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise2/app.js
+suggestions for improvement:
+- In Exercise 2, Step 3 asks for creation of the app.js file, which you've done. However, you need to include the todosRouter and implement the routes detailed in step 4. The provided code is missing the implementation for the actual todo routes (GET, POST, PUT, DELETE).
+- Exercise 3 has the same issue, you are missing the router implementation and mounting in app.js
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise2/routes/todo.js
+suggestions for improvement:
+- Consider using a more robust ID generation method (e.g., UUID) instead of `Date.now()` to avoid potential collisions, especially in a distributed environment.
+- Implement input validation and sanitization to prevent injection attacks and ensure data integrity.
+- For larger applications, consider using a database instead of an in-memory array to persist data.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise3/app.js
+suggestions for improvement:
+- Complete the books.js file with the CRUD operations as described in exercise 3.  The provided code only includes the app.js content.
+- Add error handling for invalid book IDs in the PUT and DELETE routes.
+- Consider using a more robust database solution instead of an in-memory array for storing books, especially for production environments.
+- Implement input validation to prevent malicious data from being stored.
+Correctness: 60%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/ExersiseXP/Exercise3/routes/books.js
+suggestions for improvement:
+- Consider using a more robust ID generation strategy (e.g., UUIDs) for production applications instead of Date.now().
+- Implement input validation and sanitization to prevent common security vulnerabilities.
+- For larger datasets, consider using a real database instead of an in-memory array for better performance.
+Correctness: 100%
+-----

@@ -1,0 +1,12 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/DailyChallenge/app.js
+suggestions for improvement:
+- The code sets up the Express app and uses a router, which is a good start, but it doesn't implement any of the specific quiz logic requested in the instructions (GET /quiz, POST /quiz, GET /quiz/score, tracking score, providing feedback, handling questions).
+- The code only includes the app setup and router mounting, and it requires the route implementation inside the `quizRouter` file.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-1/DailyChallenge/routes/quiz.js
+suggestions for improvement:
+- Consider using a session to manage the game state if you want to support multiple users.
+- Input sanitization could be added to prevent potential issues, although it's not strictly necessary for this hard-coded example.
+Correctness: 100%
+-----
