@@ -1,0 +1,131 @@
+/* Page Background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #e9f0ff, #f3f7ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    flex: 1;
+    padding: 11px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Add Button */
+.add-btn {
+    background-color: #4a8dfc;
+    color: white;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-btn:hover {
+    background-color: #3b7be0;
+}
+
+/* Clear All Button */
+.clear-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #ff6161;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.clear-btn:hover {
+    background: #e05454;
+}
+
+/* Task List Wrapper */
+.listTasks {
+    margin-top: 20px;
+}
+
+/* Individual Task Box */
+.task {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 14px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+    /* NEW CLEAN BORDER */
+    border: 2px solid #dce3f0;
+
+    /* Soft shadow for pro look */
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+
+    margin-bottom: 14px;
+    transition: 0.2s ease;
+}
+
+/* Hover Effect */
+.task:hover {
+    border-color: #b7c4dd;
+    background: #f7f9fc;
+}
+
+/* Checkbox + Text Group */
+.task-group {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.task label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* X Button With Box */
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-btn:hover {
+    background: #e04343;
+}

@@ -1,0 +1,36 @@
+/* Selector{
+Property: value;
+
+} */
+
+body{
+background-image:url(https://plus.unsplash.com/premium_photo-1762202949427-33b9209d699c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=830);
+
+}
+
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 5px solid purple;
+    cursor: crosshair
+}
+
+p {
+color: orange;
+
+}
+p{
+    color:rgb(205, 186, 15)
+}
+button{
+    background-color: rgb(143, 135, 191);
+}
+
+button:hover{
+    background-color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;    
+}

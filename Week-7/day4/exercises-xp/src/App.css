@@ -1,0 +1,56 @@
+/* Main root container styling: centers content and limits width */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo base styling: size, padding, and smooth filter transitions */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;           
+  transition: filter 300ms;      
+}
+
+/* General glow effect on hover */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #4db6acaa); /* teal glow */
+}
+
+/* Specific glow effect for React logo on hover */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #2979ffaa); /* blue glow */
+}
+
+/* Logo spin animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply spinning animation only if user has not requested reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card component spacing */
+.card {
+  padding: 2em;
+  background-color: #f5f5f5; /* light gray background for contrast */
+  color: #333; /* dark text for readability */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Subtle styling for documentation text */
+.read-the-docs {
+  color: #00897b; /* teal text for emphasis */
+}
