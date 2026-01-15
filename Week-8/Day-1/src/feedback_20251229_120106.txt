@@ -1,0 +1,41 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/App.css
+suggestions for improvement:
+- The provided code is only CSS styling and does not address the core requirements of the React voting app challenge, which involves creating a stateful component and handling user interactions to update the votes.
+- No functional React components or state management logic is present.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/App.js
+suggestions for improvement:
+- Consider extracting the language row into a separate component for better organization, especially if you plan to add more features to each row.
+- You can improve performance slightly by using the functional update form of `setLanguages` which avoids relying on the current state outside of the update function. It's generally a good practice, though the difference is negligible here.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/App.test.js
+suggestions for improvement:
+- The provided code is a default React test and does not implement the voting app described in the instructions. The test checks for the presence of the 'learn react' link, which is unrelated to the voting app functionality.
+- The code does not create an array of objects in the state for languages and votes.
+- The code does not include a function to increase the vote count for a specific language.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, which is not relevant to the React voting app challenge described in the instructions. The challenge requires creating a React component with state and a function to update the votes.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/index.js
+suggestions for improvement:
+- The provided code is the default index.js file created by create-react-app and doesn't implement the voting app logic as described in the prompt.
+- The App.js file (mentioned in the prompt) should contain the state and the function to update the votes. This file is missing.
+- The prompt asks to create a voting app with languages and their votes in the state, and a function to increment votes. This code doesn't address any of these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/reportWebVitals.js
+suggestions for improvement:
+- The provided code is completely unrelated to the React voting app described in the instructions. It appears to be related to web vitals reporting, which is not part of the challenge.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/src/setupTests.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

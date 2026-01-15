@@ -1,0 +1,18 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/index.html
+suggestions for improvement:
+- The HTML code provides the structure for a currency converter, but it lacks the JavaScript logic to fetch data from the ExchangeRate API, populate the currency options dynamically, handle the conversion, and implement the bonus 'switch' button functionality as described in the prompt.
+- To make this a functional currency converter, include JavaScript code (in script.js or within script tags) to handle the API calls, DOM manipulation, and event listeners for user interactions.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/script.js
+suggestions for improvement:
+- Consider debouncing the input change event to reduce the number of API calls.
+- You could extract some of the repeated code into smaller, reusable functions (e.g., creating option elements for the select dropdowns).
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-4/Day-5/DailyChallenge/style.css
+suggestions for improvement:
+- The provided code only contains the styling part and HTML structure of the currency converter. It needs to contain the javascript functionality to fetch data from the exchangerate API, populate the select elements with the available currencies, implement the conversion functionality when clicking on the button, and implement the switch functionality when clicking the swap button.
+- Without the JavaScript to drive the functionality described in the prompt, this code does not fulfill any of the requirements.
+Correctness: 0%
+-----

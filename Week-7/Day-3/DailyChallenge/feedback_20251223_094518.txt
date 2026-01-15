@@ -1,0 +1,22 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-3/DailyChallenge/Register.html
+suggestions for improvement:
+- The code only implements the HTML and JavaScript for the registration form. It does not include the Express.js backend with bcrypt and JSON file storage, which are crucial parts of the challenge.
+- The JavaScript code includes a `fetch` request to `/users/register`, but there's no corresponding server-side code provided to handle this request, hash the password, and store user data.
+- The HTML structure and styling are well-done, but the core functionality related to user management (registration, login, data storage, and retrieval) is missing.
+Correctness: 20%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-3/DailyChallenge/login.html
+suggestions for improvement:
+- The provided code focuses solely on the client-side (HTML and JavaScript) for the login form, neglecting the server-side implementation using Express.js, bcrypt, and JSON file storage as requested by the prompt. You should implement the server-side part of the application.
+- The HTML/CSS is well-structured and styled, which increases readability and user experience.
+- The JavaScript part correctly handles form submission, input validation and displays messages based on the server's response.  However, error handling could be improved by providing more specific error messages to the user.
+- Consider adding input sanitization on the client-side to prevent basic script injection attempts, even though the primary security measures should be on the server side.
+Correctness: 50%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-3/DailyChallenge/server.js
+suggestions for improvement:
+- Consider using a more robust validation library like 'express-validator' for handling registration data validation.
+- For production, use environment variables for sensitive information like SALT_ROUNDS and the file path instead of hardcoding them.
+- Consider implementing proper authentication and authorization mechanisms (e.g., JWT) instead of directly exposing user data through the GET /users routes.  These routes are currently only for demonstration purposes, but should be secured in a real application.
+Correctness: 100%
+-----

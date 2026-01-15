@@ -1,0 +1,40 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/Components/car.js
+suggestions for improvement:
+- In Part II, the instructions ask to display the color property, but the code only initializes it and does not allow it to be changed, not fulfilling the dynamic aspect intended by useState hook.
+- Consider destructuring props in the function definition for improved readability, e.g., `function Car({ carInfo })`.
+- Part II and Part III should be implemented as described in the exercises.
+Correctness: 75%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/Components/color.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/Components/events.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/Components/garage.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/Components/phone.js
+suggestions for improvement:
+- Consider using object destructuring for state variables when displaying them in the return to improve readability.
+- The 'year' and 'brand' state variables are initialized but never changed. Consider using regular const variables if they are not intended to be updated.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/app.js
+suggestions for improvement:
+- The code only imports and renders components but doesn't implement the functionalities described in Exercises 1, 2, 3, and 4. The code should contain the implementations for each component based on the instructions provided in the exercises.
+- Each component needs to be implemented according to its respective exercise instructions, including state management with useState, event handling with onClick and onKeyDown, and side effects with useEffect.
+- Since the prompt asked for individual components to satisfy individual requirements, the `App.js` file would benefit from separating out the imported components to be under different divs so that it is easier to separate what exercises they are for.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-8/Day-1/ExersiseXP/src/index.js
+suggestions for improvement:
+- The provided code is the entry point of a React application, which is not directly related to the specific exercises outlined in the chapter content. The exercises focus on creating components, using state, handling events, and using lifecycle methods/hooks.
+Correctness: 0%
+-----

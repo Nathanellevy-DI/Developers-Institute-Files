@@ -1,0 +1,45 @@
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/config/knexfile.js
+suggestions for improvement:
+- The provided code snippet only contains a Knex configuration for SQLite. It does not implement any of the API endpoints, user registration, login, or database interactions as required by the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/controllers/users.controller.js
+suggestions for improvement:
+- Consider adding input validation to prevent injection attacks and ensure data integrity.
+- Implement error handling for database queries to provide more informative error messages to the client.
+Correctness: 100%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/models/db.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/routes/users.routes.js
+suggestions for improvement:
+- Implement the actual controller functions (register, login, getUsers, getUserById, updateUser) in the controllers/users.controller.js file. The provided code only defines the routes but doesn't implement the logic.
+- Add bcrypt password hashing and comparison in the register and login functions, respectively.
+- Implement database interaction using Knex within the controller functions to store and retrieve user data.
+- Implement transaction management within the register function, to add the user to both users and hashpwd table.
+- Consider adding input validation and error handling to improve robustness.
+Correctness: 70%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/server/app.js
+suggestions for improvement:
+- Implement Knex for database interactions as requested in the problem description.
+- Implement bcrypt for password hashing as requested in the problem description.
+- Create the directory structure specified (config, controllers, models, routes).
+- Define the data tables 'users' and 'hashpwd' as specified in the problem description.
+- Implement user registration and login routes with password hashing and verification.
+- Implement routes to retrieve, and update users, connecting them to database queries.
+- Implement transaction for adding a user
+- Add error handling to routes.
+- Move route definitions to the `routes/users.routes.js` file
+Correctness: 30%
+-----
+URL: https://github.com/Nathanellevy-DI/Developers-Institute-Files/blob/main/Week-7/Day-2/DailyChallenge/setup.js
+suggestions for improvement:
+- Consider adding comments to explain the purpose of the script and each table's schema.
+- Error handling could be improved. Wrap the table creation in a try/catch block to handle potential errors during database setup.
+- The script directly exits the process after table creation. While it simplifies the setup, consider adding a conditional check (e.g., an environment variable) to control the table creation process, making it less prone to accidental execution.
+Correctness: 100%
+-----
