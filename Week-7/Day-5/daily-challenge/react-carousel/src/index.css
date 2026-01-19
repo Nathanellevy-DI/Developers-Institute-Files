@@ -1,0 +1,43 @@
+/* Global styles for the React Carousel application.
+   The carousel component is implemented in App.jsx
+   using react-responsive-carousel.
+*/
+
+/*
+  Global styles only.
+  React components and carousel implementation
+  are intentionally located in App.jsx.
+*/
+
+
+/* Global reset & base typography only */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Links – neutral defaults */
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons – neutral base (components can override) */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
