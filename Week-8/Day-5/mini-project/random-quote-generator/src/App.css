@@ -1,0 +1,81 @@
+/* Make sure HTML and body take up full screen */
+html, body {
+  height: 100%;
+  width: 100%;  /* ← Make sure they take full width */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* ←  Prevent horizontal scrollbar */
+}
+
+#root {
+  height: 100%;
+  width: 100%;  /* ← ADD THIS */
+}
+
+
+
+
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-screen container with centered content */
+.app-container {
+  min-height: 100vh;     /* Full height */
+  width: 100vw;  /* ←  Full viewport width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  font-family: 'Arial', sans-serif;
+  margin: 0;  /*  - Remove any margin */ /* ← Remove any space outside the container */
+  padding: 0;  /*   Remove any padding */    /* ← Remove any space inside the container */
+}
+
+/* White box that contains the quote */
+.quote-box {
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Quote text styling */
+.quote-text {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  transition: color 0.5s ease;
+}
+
+/* Author text styling */
+.author-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 30px;
+  transition: color 0.5s ease;
+}
+
+/* Button styling */
+.new-quote-btn {
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* Button hover effect */
+.new-quote-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
