@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Book - TypeScript Mini Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="recipe-app">
+    <header class="app-header">
+      <h1>📖 Recipe Book</h1>
+      <p>Your personal collection of delicious recipes</p>
+    </header>
+    <main class="app-main">
+      <section class="form-section">
+        <h2>Add New Recipe</h2>
+        <form id="recipeEntryForm">
+          <div class="form-group">
+            <label for="recipeTitle">Recipe Title</label>
+            <input type="text" id="recipeTitle" placeholder="e.g., Grandma's Apple Pie" required />
+          </div>
+          <div class="form-group">
+            <label for="ingredients">Ingredients</label>
+            <textarea id="ingredients" placeholder="Enter ingredients (one per line)" required rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="instructions">Cooking Instructions</label>
+            <textarea id="instructions" placeholder="Enter step-by-step cooking instructions..." required
+              rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-submit"><span>➕</span> Add Recipe</button>
+        </form>
+      </section>
+      <section class="recipes-section">
+        <h2>My Recipes</h2>
+        <div id="recipeContainer"></div>
+      </section>
+    </main>
+    <footer class="app-footer">
+      <button id="clearRecipesButton" class="btn-clear">🗑️ Clear All Recipes</button>
+      <p>Week 10 Day 5 - TypeScript Mini Project</p>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

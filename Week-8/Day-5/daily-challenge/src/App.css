@@ -1,0 +1,57 @@
+/* Main root container that centers the app and limits its width */
+#root {
+  max-width: 1280px;       /* Restricts maximum width for large screens */
+  margin: 0 auto;         /* Centers the content horizontally */
+  padding: 2rem;          /* Adds spacing inside the container */
+  text-align: center;     /* Aligns text to the center */
+}
+
+/* Base styling for logo images */
+.logo {
+  height: 6em;            /* Sets consistent logo height */
+  padding: 1.5em;         /* Adds space around the logo */
+  will-change: filter;    /* Optimizes browser rendering for hover effects */
+  transition: filter 300ms ease-in-out; /* Smooth hover transition */
+}
+
+/* Glow effect when hovering over any logo */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #5a6bffbb); /* Soft blue glow */
+}
+
+/* React-specific logo glow styling */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #64246ccc); /* Teal glow for React logo */
+}
+
+/* Animation that continuously rotates the logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);   /* Starting rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Full rotation */
+  }
+}
+
+/* Applies spinning animation only when motion is allowed */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear; /* Slow continuous spin */
+  }
+}
+
+/* Card-style container spacing */
+.card {
+  padding: 2em;            /* Inner spacing for card content */
+}
+
+/* Muted color for documentation links */
+.read-the-docs {
+  color: #777;             /* Slightly darker gray for better contrast */
+}
+
+/* Adds spacing above main headings */
+h1 {
+  padding-top: 30px;       /* Separates heading from top of page */
+}

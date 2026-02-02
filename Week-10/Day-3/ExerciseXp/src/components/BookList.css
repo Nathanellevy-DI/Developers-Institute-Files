@@ -1,0 +1,199 @@
+.book-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Genre Filter Buttons */
+.genre-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.genre-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #e0e5ec 0%, #f5f7fa 100%);
+    color: #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.genre-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.genre-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Genre Dropdown */
+.genre-dropdown {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.genre-dropdown label {
+    margin-right: 0.5rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.genre-dropdown select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #e0e5ec;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.genre-dropdown select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Book Count */
+.book-count {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Book Grid */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Book Card */
+.book-card {
+    position: relative;
+    padding: 2rem;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.book-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+
+.book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* Genre-specific styling */
+.book-card.horror::before {
+    background: linear-gradient(90deg, #ff416c 0%, #ff4b2b 100%);
+}
+
+.book-card.fantasy::before {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.book-card.science-fiction::before {
+    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+}
+
+/* Genre Tag */
+.book-genre-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.horror .book-genre-tag {
+    background: rgba(255, 65, 108, 0.15);
+    color: #ff416c;
+}
+
+.fantasy .book-genre-tag {
+    background: rgba(102, 126, 234, 0.15);
+    color: #667eea;
+}
+
+.science-fiction .book-genre-tag {
+    background: rgba(0, 176, 155, 0.15);
+    color: #00b09b;
+}
+
+/* Book Title */
+.book-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+/* Book Author */
+.book-author {
+    color: #666;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+/* No Books Message */
+.no-books {
+    text-align: center;
+    color: #999;
+    font-size: 1.2rem;
+    padding: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .book-list-container {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .genre-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .books-grid {
+        grid-template-columns: 1fr;
+    }
+}

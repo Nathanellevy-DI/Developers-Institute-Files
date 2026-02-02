@@ -1,0 +1,79 @@
+/* 
+  Styling for the React Carousel application.
+  The carousel logic and react-responsive-carousel usage
+  are implemented in App.jsx.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #333;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Carousel styling */
+.carousel .slide img {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 10px !important;
+  bottom: 40px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 15px 40px !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+  text-align: center !important;
+}
+
+.carousel .control-arrow {
+  opacity: 0.7;
+}
+
+.carousel .control-arrow:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel .thumb {
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carousel .thumb:hover {
+  border: 3px solid #667eea;
+}
+
+.carousel .thumb.selected {
+  border: 3px solid #764ba2;
+}

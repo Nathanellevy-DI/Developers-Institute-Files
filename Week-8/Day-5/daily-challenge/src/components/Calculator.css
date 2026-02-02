@@ -1,0 +1,69 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #aaaca4, #160b26);
+  height: 100vh;
+}
+
+/* Calculator wrapper */
+.calculator-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f8fafc;
+}
+
+/* Heading */
+.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* Input group */
+.inputs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+/* Number inputs */
+.inputs input {
+  width: 220px;
+  height: 70px;
+  font-size: 36px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: linear-gradient(#e2c8ff, #238ac2);
+  color: #550fcf;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
+}
+
+/* Add button */
+.add-btn {
+  background: #b77f52;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.add-btn:hover {
+  background: #5f35e6;
+}
+
+/* Result display */
+.result {
+  font-size: 100px;
+  font-weight: bold;
+  opacity: 0.9;
+  padding-top: 0px;
+}

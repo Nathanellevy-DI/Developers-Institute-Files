@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daily Challenge: Form to JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input,
+        button {
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            white-space: pre;
+            /* keeps JSON formatting */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Enter Your Name</h2>
+
+    <form id="nameForm">
+        <label>First Name:</label><br>
+        <input type="text" id="firstName" required><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" id="lastName" required><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="output"></div>
+
+    <!-- Link to external JS -->
+    <script src="daily-challenge.js"></script>
+</body>
+
+</html>

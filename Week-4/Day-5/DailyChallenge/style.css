@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #4da6ff; /* Lighter Blue for highlights */
+    --secondary-color: #6c757d; /* Gray for subtle text */
+    --background-color: #1a202c; /* Dark background */
+    --card-background: #2d3748; /* Dark card background */
+    --border-radius: 8px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --text-color: #e2e8f0; /* Light text */
+    --input-background: #4a5568; /* Darker input background */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.converter-container {
+    background: var(--card-background);
+    padding: 35px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    max-width: 450px; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+/* Credit Display */
+.credit-info {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+/* Input and Select Group Styling */
+.input-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+input[type="number"], select {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #4a5568;
+    font-size: 1rem;
+    background-color: var(--input-background);
+    color: var(--text-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(77, 166, 255, 0.25);
+    outline: none;
+}
+
+/* Swap Button Style */
+#swapButton {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+#swapButton:hover {
+    transform: rotate(180deg);
+}
+
+/* Button Styling */
+button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, opacity 0.2s;
+    margin-top: 25px;
+}
+
+button:hover:not([disabled]) {
+    background-color: #0077cc; /* Darker blue on hover */
+}
+
+button[disabled] {
+    background-color: var(--secondary-color);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Result Display Styling */
+.result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #3b4559; /* Slightly lighter dark background for result */
+    border-radius: var(--border-radius);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    min-height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

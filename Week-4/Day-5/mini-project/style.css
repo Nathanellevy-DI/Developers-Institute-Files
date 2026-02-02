@@ -1,0 +1,153 @@
+/* Body & background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Starfield background using pseudo-elements */
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: transparent;
+    z-index: -1;
+}
+
+body::before {
+    box-shadow:
+        50px 100px #fff,
+        200px 150px #fff,
+        400px 300px #fff,
+        600px 200px #fff,
+        800px 350px #fff,
+        1000px 100px #fff,
+        1200px 250px #fff,
+        1400px 150px #fff,
+        1600px 300px #fff,
+        1800px 400px #fff,
+        2000px 200px #fff;
+    animation: moveStars 50s linear infinite;
+}
+
+body::after {
+    box-shadow:
+        100px 200px #fff,
+        300px 400px #fff,
+        500px 150px #fff,
+        700px 250px #fff,
+        900px 350px #fff,
+        1100px 450px #fff,
+        1300px 200px #fff,
+        1500px 300px #fff;
+    animation: moveStars 70s linear infinite;
+}
+
+/* Starfield animation */
+@keyframes moveStars {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Star Wars Title */
+.starwars-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 3px gold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Character Box */
+.result-box {
+    margin: auto;
+    background: transparent;
+    padding: 40px 20px;
+    border: 3px solid gold;
+    border-radius: 12px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Loading spinner */
+.loading {
+    font-size: 40px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+/* Error */
+.error {
+    color: #ff4d4d;
+    font-size: 18px;
+}
+
+/* Character info */
+.character-info p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Button styling */
+button {
+    margin-top: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 3px solid gold;
+    background: transparent;
+    color: gold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: gold;
+    color: black;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+    .starwars-title {
+        font-size: 32px;
+    }
+
+    .result-box {
+        padding: 30px 15px;
+        min-height: 120px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .character-info p {
+        font-size: 16px;
+    }
+}
